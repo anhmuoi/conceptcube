@@ -130,6 +130,11 @@
         }
     }
 }
+@media (min-height: 710px) and (max-width: 1550px) and (max-height: 870px) {
+    .contact_container .wrap_content .address .address_two {
+        margin-top: 0px;
+    }
+}
 
 @media screen and (max-width: 766px) {
     .contact_container {

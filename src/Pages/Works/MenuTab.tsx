@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import DropDown from "./Dropdown";
+import DropDown from "../../components/Dropdown";
 
 interface MenuTabProps {
   menus: any[];

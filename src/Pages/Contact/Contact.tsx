@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.scss'
-import MapPage from './MapPage';
 import { useTranslation } from 'react-i18next';
+import MapPage from '@components/MapPage/MapPage';
 
 function Contact() {
     const { t, i18n } = useTranslation()
