@@ -1,0 +1,51 @@
+@import '../../../../Assets/Style/Varialble.scss';
+
+.page-three {
+    height: 100vh;
+    user-select: none;
+    background-size: cover;
+    overflow: hidden;
+    background-color: $bg;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .page-three-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: nowrap;
+    }
+    @media (min-height: 710px) and (max-width: 1550px) and (max-height: 870px) {
+        
+    }
+    @media screen and (max-width: 1279.98px) {
+        .page-three-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);            
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 40px 0px;      
+            .card-item {
+                display: flex;
+                
+                justify-content: center;
+            }      
+        }
+    }
+    @media screen and (max-width: 1023.98px) {
+        .page-three-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 374.98px) {
+        .page-three-container {
+            gap: 15px;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,180 @@
+@import '../../../../Assets/Style/Varialble.scss';
+
+.first-container {
+    height: 100vh;
+    background-color: $bg;
+    color: $primary-color;
+    position: relative;
+    z-index: 0;
+    .inner-content {
+        margin-left: 145px;
+        max-width: 1600px;
+        height: 100%;
+
+        .logo {
+            padding-top: 80px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .first-heading {
+            
+            margin-top: 115px;
+            max-width: 1294px;
+            max-height: 635px;
+            font-family: $primary-font;
+            font-size: 200.5px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.1;
+            letter-spacing: -5.5px;
+            text-align: left;
+            color: $primary-color;
+            z-index: 5;
+        }
+        .first-intro {
+            margin-top: 117px;
+            color: $primary-color;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 3.86;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+    .bg-object-1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateY(212px);
+        z-index: -1;
+    }
+    .bg-object-2 {
+        position: absolute;
+        bottom: 575px;
+        left: 651px;
+        z-index: -1;
+    }
+    .bg-object-3 {
+        position: absolute;
+        top: 154px;
+        right: 511px;
+        z-index: -1;
+    }
+    .bg-object-4 {
+        position: absolute;
+        top: 310px;
+        right: 341px;
+        z-index: -2;
+    }
+    .bg-object-5 {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        transform: translateY(70px);
+        z-index: -1;
+    }
+    @media (min-height: 710px) and (max-width: 1550px) and (max-height: 870px) {
+        .inner-content {
+            max-width: 1200px;
+            .first-heading {
+                font-size: 140px;
+                max-width: 800px;
+                line-height: 1;
+                letter-spacing: normal;
+            }
+            .first-intro {
+                margin-top: 10px;
+            }
+            
+        }
+        .bg-object-1, .bg-object-2, .bg-object-3, .bg-object-4, .bg-object-5 {
+            max-width: 150px;
+        }
+        .bg-object-5 {
+            transform: translateY(100px);
+        }
+    }
+    
+    @media screen and (max-width: 1279.98px) {
+        .inner-content {
+            max-width: 860px;
+            margin-left: 50px;
+            .first-heading {
+                font-size: 125.5px;
+                letter-spacing: normal;
+            }
+            .logo {
+                padding-top: 120px;
+            }
+        }
+        .bg-object-2 {
+            left: 570px;
+        }
+    }
+    @media screen and (max-width: 1023.98px) {
+        .inner-content {
+            max-width: 610px;
+            margin-left: 50px;
+            .first-heading {
+                font-size: 100px;
+            }
+        }
+        .bg-object-1 {
+            max-width: 130px;
+        }
+        .bg-object-2 {
+            max-width: 130px;
+            left: 400px;
+        }
+        .bg-object-3 {
+            display: none;
+        }
+        .bg-object-4 {
+            display: none;
+        }
+        .bg-object-5 {
+            max-width: 130px;
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+        .inner-content {
+            max-width: 90%;
+            margin-left: 20px;
+            .first-heading {
+                font-size: 50px;
+            }
+            .logo {
+                padding-top: 125px;
+            }
+        }
+        .bg-object-2 {
+            display: none;
+        }
+        .bg-object-5 {
+            transform: translateY(45px);
+        }
+    }
+    @media screen and (max-width: 575.98px) {
+        .bg-object-5 {
+            transform: translateY(80px);
+        }
+    }
+    @media screen and (max-width: 374.98px) {
+        .inner-content {
+            
+            max-height: 80vh;
+            .first-heading {
+                font-size: 35px;
+            }
+        }
+        .bg-object-1 {
+            display: none;
+        }
+        .bg-object-5 {
+            display: none;
+        }
+    }
+}

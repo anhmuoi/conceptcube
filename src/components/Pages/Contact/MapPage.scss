@@ -1,0 +1,11 @@
+.map {
+    iframe {
+        height: 1080px;
+    }
+
+    @media screen and (max-width: 1279.98px) {
+        iframe {
+            height: calc(100vh - 185px);
+        }
+    }
+}
