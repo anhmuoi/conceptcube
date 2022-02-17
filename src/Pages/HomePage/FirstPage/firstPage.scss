@@ -19,6 +19,7 @@
         .first-heading {
             
             margin-top: 115px;
+            padding-bottom: 3px;
             max-width: 1294px;
             max-height: 635px;
             font-family: $primary-font;
@@ -73,7 +74,7 @@
         position: absolute;
         bottom: 0;
         right: 0px;
-        transform: translateY(70px);
+        transform: translateY(199px);
         z-index: -1;
     }
     @media (min-height: 710px) and (max-width: 1550px) and (max-height: 870px) {
@@ -112,6 +113,9 @@
         }
         .bg-object-2 {
             left: 570px;
+        }
+        .bg-object-5 {
+            transform: translateY(70px);
         }
     }
     @media screen and (max-width: 1023.98px) {
