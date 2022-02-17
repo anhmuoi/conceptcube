@@ -1,12 +1,12 @@
+import Contact from '@pages/Contact/Contact';
+import Home from '@pages/HomePage/Home';
+import Team from '@pages/Team/Team';
+import Works from '@pages/Works';
 import { gsap } from 'gsap';
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink, Route, Routes, useLocation } from 'react-router-dom';
-import i18n from '../../i18n';
-import Contact from '../Pages/Contact/Contact';
-import Home from '../Pages/HomePage/Home';
-import Team from '../Pages/Team/Team';
-import Works from '../Pages/Works';
+import i18n from '../../i18n/i18n';
 import './SideMenu.scss';
 
 const SideMenu = () => {

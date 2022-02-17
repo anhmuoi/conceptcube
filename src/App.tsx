@@ -1,7 +1,6 @@
+import SideMenu from '@components/SideMenu/SideMenu';
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import SideMenu from './components/SideMenu/SideMenu';
 
 function App() {
   return (

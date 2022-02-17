@@ -1,6 +1,6 @@
+import UrlLogo from "@assets/Images/footer.png";
 import React from "react";
 import { Link } from "react-router-dom";
-import UrlLogo from "../../../Assets/Images/footer.png";
 
 const Footer = () => {
   return (

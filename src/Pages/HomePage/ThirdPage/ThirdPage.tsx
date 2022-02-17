@@ -1,15 +1,14 @@
-import "./thirdPage.scss";
+import card1Off from '@assets/Images/off-game-dev-img.png';
+import card4Off from '@assets/Images/off-game-mar-img.png';
+import card3Off from '@assets/Images/off-si-img.png';
+import card2Off from '@assets/Images/off-ui-design-img.png';
+import card1On from '@assets/Images/on-game-dev-img.png';
+import card4On from '@assets/Images/on-game-mar-img.png';
+import card3On from '@assets/Images/on-si-img.png';
+import card2On from '@assets/Images/on-ui-design-img.png';
 import { useTranslation } from "react-i18next";
-import i18n from '../../../../i18n';
-import card1Off from '../../../../Assets/Images/off-game-dev-img.png';
-import card1On from '../../../../Assets/Images/on-game-dev-img.png';
-import card2Off from '../../../../Assets/Images/off-ui-design-img.png';
-import card2On from '../../../../Assets/Images/on-ui-design-img.png';
-import card3Off from '../../../../Assets/Images/off-si-img.png';
-import card3On from '../../../../Assets/Images/on-si-img.png';
-import card4Off from '../../../../Assets/Images/off-game-mar-img.png';
-import card4On from '../../../../Assets/Images/on-game-mar-img.png';
 import CardThirdPage from "./CardThirdPage";
+import "./thirdPage.scss";
 
 
 const cardList = [

@@ -1,6 +1,6 @@
+import { RightOutlined } from '@ant-design/icons';
 import React from 'react';
 import './fifthPage.scss';
-import { RightOutlined } from '@ant-design/icons';
 
 function FifthPage() {
     return (

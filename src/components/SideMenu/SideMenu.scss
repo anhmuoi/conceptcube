@@ -1,4 +1,4 @@
-@import '../../Assets/Style/Varialble.scss';
+@import '@assets/Style/Varialble.scss';
 .side-menu-container {
     position: fixed;
     top: 0px;
@@ -156,7 +156,7 @@
     #side-menu-toggle input:checked ~ span {
         opacity: 1;
 
-        transform: rotate(45deg) translate(-2px, -1px);
+        transform: rotate(45deg) translate(-3px, -4px);
         background: #fff !important;
     }
 

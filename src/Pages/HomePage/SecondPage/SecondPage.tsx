@@ -1,14 +1,13 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
-import './secondPage.scss';
-import { gsap } from 'gsap';
+import img1 from '@assets/Images/console-img-1.png';
+import img2 from '@assets/Images/console-img-2.png';
+import img3 from '@assets/Images/console-img-3.png';
+import img4 from '@assets/Images/console-img-4.png';
+import img5 from '@assets/Images/console-img-5.png';
+import img6 from '@assets/Images/console-img-6.png';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import img1 from '../../../../Assets/Images/console-img-1.png';
-import img2 from '../../../../Assets/Images/console-img-2.png';
-import img3 from '../../../../Assets/Images/console-img-3.png';
-import img4 from '../../../../Assets/Images/console-img-4.png';
-import img5 from '../../../../Assets/Images/console-img-5.png';
-import img6 from '../../../../Assets/Images/console-img-6.png';
+import './secondPage.scss';
 
 function SecondPage() {
     const { t, i18n } = useTranslation();

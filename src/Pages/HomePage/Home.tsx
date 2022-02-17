@@ -1,18 +1,16 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+import afterLoad from '@components/Animation/AfterLoad';
+import onLeave from '@components/Animation/onLeave';
+import ReactFullpage from '@fullpage/react-fullpage';
+import 'fullpage.js/vendors/scrolloverflow'; // Optional. When using scrollOverflow:true
 import { gsap } from 'gsap';
-import { useNavigate } from 'react-router-dom';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/all';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from 'react';
+import FifthPage from './FifthPage/FifthPage';
 import FirstPage from './FirstPage/FirstPage';
+import FourthPage from './FourthPage/FourthPage';
 import SecondPage from './SecondPage/SecondPage';
 import ThirdPage from './ThirdPage/ThirdPage';
-import FourthPage from './FourthPage/FourthPage';
-import FifthPage from './FifthPage/FifthPage';
-import 'fullpage.js/vendors/scrolloverflow'; // Optional. When using scrollOverflow:true
-import ReactFullpage from '@fullpage/react-fullpage';
-import onLeave from '../../Animation/onLeave';
-import afterLoad from '../../Animation/AfterLoad';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);

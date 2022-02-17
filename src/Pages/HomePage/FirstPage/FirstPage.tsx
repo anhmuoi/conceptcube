@@ -1,14 +1,14 @@
+import bg1 from '@assets/Images/bg-object-1.png';
+import bg2 from '@assets/Images/bg-object-2.png';
+import bg3 from '@assets/Images/bg-object-3.png';
+import bg4 from '@assets/Images/bg-object-4.png';
+import bg5 from '@assets/Images/bg-object-5.png';
+import logo from '@assets/Images/logo-icon.png';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import i18n from '../../../../i18n';
+import i18n from '../../../i18n/i18n';
 import './firstPage.scss';
-import logo from '../../../../Assets/Images/logo-icon.png';
-import bg1 from '../../../../Assets/Images/bg-object-1.png';
-import bg2 from '../../../../Assets/Images/bg-object-2.png';
-import bg3 from '../../../../Assets/Images/bg-object-3.png';
-import bg4 from '../../../../Assets/Images/bg-object-4.png';
-import bg5 from '../../../../Assets/Images/bg-object-5.png';
 
 interface TranslateProps {
     subTitle: string;

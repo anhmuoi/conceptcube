@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./fourthPage.scss"
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "./fourthPage.scss";
 
 function FourthPage() {
     const location = useLocation()

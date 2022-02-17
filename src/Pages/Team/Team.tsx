@@ -1,5 +1,5 @@
 import React from 'react';
-import teamBG from '../../../Assets/Images/team.jpg';
+import teamBG from '@assets/Images/team.jpg';
 import './Team.scss';
 import {dataTeam} from "./fakeData";
 import TeamList from "./TeamList/TeamList";
